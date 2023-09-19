@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @DavidDaniel9
 - 👀 I’m interested in programming 
 - 🌱 I’m currently learning programming language 
-- 💞️ I’m looking to collaborate on web development project, good in styling and little on Js, hope to get more experience here ❤️✌️
+- 💞️ I’m looking to collaborate on any project using css and js to gain more experience been a self taught 
 - 📫 How to reach!
 - you can reach me here on GitHub 
 
