@@ -1,0 +1,167 @@
+/*================Body==============*/
+body{
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-image:url("brooke-lark-W1B2LpQOBxA-unsplash.jpg");
+background-repeat: no-repeat;
+margin: 0%;
+}
+
+
+/*================Header============*/
+#Header{
+background-color: aquamarine;
+text-align: center;
+display: block;
+margin-top: 0%;
+padding-top: 20px;
+
+}
+@media(max-width:400px){
+    #Header{
+           background-color: salmon;
+           color: white;
+}
+}
+.hhhh1{
+text-transform:uppercase;
+     background-image: linear-gradient(
+        -225deg,
+         #155736 15%,
+         purple 49%,
+         yellow 67%,
+         pink 100%
+         );
+ background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     color: white;
+     background-clip: text;
+     text-fill-color:transparent;
+     -webkit-background-clip:text;
+     -webkit-text-fill-color: transparent;
+      animation:textclip 2s linear infinite;
+     display:inline-block;
+     
+ }
+ @keyframes textclip  {
+    to{
+     background-position:200% center;
+ }  
+}
+.Header{
+background-color: aquamarine;
+text-align: center;
+display: block;
+margin-top: 0%;
+padding-top: 0px;
+padding-bottom: 0%;
+}
+.hh1{
+-webkit-animation: test 4s;
+infinite;
+animation:test 4s infinite;
+}
+@-webkit-keyframes text{
+    50%{letter-spacing:10px;}
+}
+@keyframes test{
+    50% { letter-spacing: 10px;};
+}
+/*===============Nav===============*/
+#Navbar {
+ font-size: 20px;   
+ text-align: center;
+ background-color: black;
+ display: block;
+ padding-bottom: 0px;
+ 
+ 
+
+}
+
+#Navbar ul a{
+   text-decoration: none;
+color: white;
+}
+#Navbar li {
+list-style: none;
+display: inline;
+margin: 10px;
+padding:10px;
+}
+#Navbar a:hover{
+    background-color: black ;
+    color:rgb(46, 232, 87);
+}
+/*===================body===========*/
+#Body1{
+    line-height: 40px;
+font-size: larger; 
+font-weight:bolder;   
+  
+}
+button{
+    font-size: larger;
+    background-color: black;
+    color: white;
+    
+    
+}
+#Body3{
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+    border:5px;
+    border-color: black;
+    border-radius: 15px;
+    border-style: solid;
+   
+
+
+    background-image: url(christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover, contain;
+    backface-visibility: visible;
+    box-pack:inherit;
+    background-position:inherit;
+    font-size: larger; 
+    font-weight:bolder;   
+}
+.fa{
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:30px;
+}
+
+.fa-facebook{
+    background-color: blue;
+    color: white;
+}
+.fa-github{
+    background-color: black;
+    color: white;
+}
+.fa-whatsapp{
+    background-color: rgb(94, 214, 94);
+color: white;
+}
+.fa-skype{
+    background-color: white;
+    color:rgb(23, 132, 209)  
+}
+/*=================myimg===========*/
+#Myimg{
+    border:6px;
+    border-radius:2px;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+    
+}
+footer:hover{
+background-color:brown;
+color: black;
+}
